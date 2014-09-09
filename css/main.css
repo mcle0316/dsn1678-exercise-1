@@ -58,6 +58,11 @@ img {
 	border-collapse:collapse; 
 	
 }
+
+.margins {
+	padding:1rem;	
+}
+
 .info th,td {
 	text-align:left;
 	border-right:1px solid grey;
