@@ -35,26 +35,45 @@ img {
 .caption {
 	color:#FFFFFF;
 	font-style:italic;
-	margin-top:-2rem;
-	font-size:1rem;
-	margin-left:2rem;
-	background-color:rgba(0,0,0,.90);
+	margin-bottom:0;
+	font-size:100%;
+	bottom:0;
+	background-color:rgba(0,0,0,.50);
+	position:absolute;
+	padding:1rem;
+	width:100%;
+	}
+.fig {
+	position:relative;
+	margin:0;
+	
 }
 
 .whole {
 	background-color:#FFF;
-	padding:1rem;
 	border-radius:15px;
 }
 
-
+.info {
+	border-collapse:collapse; 
+	
+}
 .info th,td {
 	text-align:left;
 	border-right:1px solid grey;
-	padding-right:6em;
+	padding-right:6rem;
 }
-
+ 
 .info th {
 	font-variant:small-caps;
 	color:#7A7A7A;
+}
+
+.info td:last-child {
+	border:0;
+	
+}
+
+.info th:last-child {
+	border:0;
 }
